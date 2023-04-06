@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blur IO</title>
+  <style>
+    /* Обнуление стилей */
+    body, h1, p, img, ul, li {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Контейнер для всего содержимого */
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      text-align: center;
+    }
+
+    /* Заголовок */
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Картинка */
+    .image {
+      width: 250px;
+      height: 250px;
+      margin: 0 auto;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+
+    /* Описание */
+    p {
+      font-size: 18px;
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+
+    /* Кнопки */
+    .buttons {
+      display: flex;
+      justify-content: center;
+    }
+
+    .button {
+      margin: 0 10px;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      font-size: 18px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #0056b3;
+    }
+
+    /* Анимация */
+    .button {
+      animation: pulse 1s infinite;
+    }
+
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.1);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Blur IO</h1>
+    <div class="image">
+      <img src="icon.jpg" alt="Blur IO Image">
+    </div>
+    <p>Добро пожаловать в мир Blur IO! Мы предлагаем вам уникальный опыт взаимодействия с виртуальным миром.</p>
+    <div class="buttons">
+      <a href="pp.html" class="button">Privacy Policy</a>
+      <a href="tc.html" class="button">Terms & Conditions</a>
+      <a href="del.html" class="button">Data Delete</a>
+    </div>
+  </div>
+</body>
+</html>
